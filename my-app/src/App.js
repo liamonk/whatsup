@@ -1,19 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import React from "react";
+import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
+import {Teaching} from './views/teaching';
 
-function App() {
+const App =()=> {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>Welcome to my Hobbies</p>
+      <header className="App-header"> 
+        <h1>LONK Blog</h1>
+        <p>A blog where I record whats going on in my world</p>
       </header>
-      <div className="App-nav-bar">
-        <p className="App-nav-element">Teaching</p>
-        <p className="App-nav-element">Data</p>
-        <p className="App-nav-element">Brewing</p>
-        <p className="App-nav-element">Cricket</p>
-        <p className="App-nav-element">Code</p>
-      </div>
+      <div className="App-nav-bar" />
+      <Switch>
+          <Route path='/teaching' component = {Teaching}/>
+      </Switch> 
     </div>
   );
 }

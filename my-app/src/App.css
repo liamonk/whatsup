@@ -2,6 +2,22 @@
   text-align: center;
 }
 
+.body { 
+	background: #fcf4d9; 
+}
+	
+.second-color { 
+	background: #8ed2c9; 
+}
+
+.third-color { 
+	background: #00aaa0; 
+}
+
+.fourth-color { 
+	background: #d55b3e; 
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,24 +30,27 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #8ed2c9;
   min-height: 15vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    color: white;
+}
+
+h1{
+  font-size: calc(10px + 2vmin)
 }
 
 .App-nav-bar {
-  background-color: #28342a;
+  background-color: #d55b3e;
   min-height: 10vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(5px + 2vmin);
   color: white;
 }
 
@@ -39,7 +58,7 @@
   display: inline-flex;
   margin-left: auto;
   margin-right: auto;
-  width: 20%;
+  width: 15%;
 }
 
 .App-link {
